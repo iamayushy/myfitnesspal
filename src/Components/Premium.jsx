@@ -138,6 +138,431 @@ const Premium = () => {
             </div>
           </div>
         </div>
+        <div className={`${styles.MuiContainer_root} ${styles.jss93}`}>
+          <div className={styles.jss94}>
+            <header className={styles.jss96}>
+              <h2
+                className={`${styles.MuiTypography_root} ${styles.jss75} ${styles.jss97}`}
+              >
+                Your Goals, Your Way
+              </h2>
+              <p
+                className={`${styles.MuiTypography_root} ${styles.jss98} ${styles.MuiTypography_body1}`}
+              >
+                Advanced tools and in-depth analysis to help you build lifelong
+                healthy habits.
+              </p>
+            </header>
+            <div className={styles.jss101}>
+              <div className={styles.jss102}></div>
+              <table className={`${styles.MuiTable_root} ${styles.jss95}`}>
+                <thead className={`${styles.MuiTableHead_root}`}>
+                  <tr
+                    className={`${styles.MuiTableRow_root} ${styles.MuiTableRow_head}`}
+                  >
+                    <th
+                      className={`${styles.MuiTableCell_root} ${styles.MuiTableCell_head} ${styles.MuiTableCell_alignCenter}`}
+                      role="columnheader"
+                      scope="col"
+                    ></th>
+                    <th
+                      className={`${styles.MuiTableCell_root} ${styles.MuiTableCell_head} ${styles.MuiTableCell_alignCenter}`}
+                      role="columnheader"
+                      scope="col"
+                    >
+                      <span className={styles.jss100}>Free</span>
+                    </th>
+                    <th
+                      className={`${styles.MuiTableCell_root} ${styles.MuiTableCell_head} ${styles.MuiTableCell_alignCenter}`}
+                      role="columnheader"
+                      scope="col"
+                    >
+                      <span className={styles.jss100}>Premium</span>
+                    </th>
+                  </tr>
+                </thead>
+                <tbody className={styles.MuiTableBody_root}>
+                  <tr className={`${styles.MuiTableRow_root} ${styles.jss103}`}>
+                    <td
+                      className={`${styles.MuiTableCell_root} ${styles.MuiTableCell_body} ${styles.MuiTableCell_alignLeft}`}
+                    >
+                      <h3
+                        className={`${styles.MuiTypography_root} ${styles.jss104} ${styles.MuiTypography_h4}`}
+                      >
+                        <strong>Nutrition Tracking</strong>
+                      </h3>
+                      <p
+                        className={`${styles.MuiTypography_root} ${styles.jss105} ${styles.MuiTypography_body1}`}
+                      >
+                        Log your food from our extensive database.
+                      </p>
+                    </td>
+                    <td
+                      className={`${styles.MuiTableCell_root} ${styles.MuiTableCell_body} ${styles.MuiTableCell_alignCenter}`}
+                    >
+                      <div>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="22"
+                          height="22"
+                          viewBox="0 0 22 22"
+                        >
+                          <path
+                            fill="#0066EE"
+                            d="M11 0c6.075 0 11 4.925 11 11s-4.925 11-11 11S0 17.075 0 11 4.925 0 11 0zm5.535 6L9.24 13.1l-2.796-2.67L5 11.9 9.197 16h.018L18 7.44 16.535 6z"
+                          ></path>
+                        </svg>
+                      </div>
+                    </td>
+                    <td
+                      className={`${styles.MuiTableCell_root} ${styles.MuiTableCell_body} ${styles.MuiTableCell_alignCenter}`}
+                    >
+                      <div>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="22"
+                          height="22"
+                          viewBox="0 0 22 22"
+                        >
+                          <path
+                            fill="#0066EE"
+                            d="M11 0c6.075 0 11 4.925 11 11s-4.925 11-11 11S0 17.075 0 11 4.925 0 11 0zm5.535 6L9.24 13.1l-2.796-2.67L5 11.9 9.197 16h.018L18 7.44 16.535 6z"
+                          ></path>
+                        </svg>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr className={`${styles.MuiTableRow_root} ${styles.jss103}`}>
+                    <td
+                      className={`${styles.MuiTableCell_root} ${styles.MuiTableCell_body} ${styles.MuiTableCell_alignLeft}`}
+                    >
+                      <h3
+                        className={`${styles.MuiTypography_root} ${styles.jss104} ${styles.MuiTypography_h4}`}
+                      >
+                        <strong>
+                          Customizable Carbs, Protein &amp; Fat Goals
+                        </strong>
+                      </h3>
+                      <p
+                        className={`${styles.MuiTypography_root} ${styles.jss105} ${styles.MuiTypography_body1}`}
+                      >
+                        Track your macros by gram or percentage.
+                      </p>
+                    </td>
+                    <td
+                      className={`${styles.MuiTableCell_root} ${styles.MuiTableCell_body} ${styles.MuiTableCell_alignCenter}`}
+                    ></td>
+                    <td
+                      className={`${styles.MuiTableCell_root} ${styles.MuiTableCell_body} ${styles.MuiTableCell_alignCenter}`}
+                    >
+                      <div>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="22"
+                          height="22"
+                          viewBox="0 0 22 22"
+                        >
+                          <path
+                            fill="#0066EE"
+                            d="M11 0c6.075 0 11 4.925 11 11s-4.925 11-11 11S0 17.075 0 11 4.925 0 11 0zm5.535 6L9.24 13.1l-2.796-2.67L5 11.9 9.197 16h.018L18 7.44 16.535 6z"
+                          ></path>
+                        </svg>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr className={`${styles.MuiTableRow_root} ${styles.jss103}`}>
+                    <td
+                      className={`${styles.MuiTableCell_root} ${styles.MuiTableCell_body} ${styles.MuiTableCell_alignLeft}`}
+                    >
+                      <h3
+                        className={`${styles.MuiTypography_root} ${styles.jss104} ${styles.MuiTypography_h4}`}
+                      >
+                        <strong>Guided Fitness &amp; Nutrition Plans</strong>
+                      </h3>
+                      <p
+                        className={`${styles.MuiTypography_root} ${styles.jss105} ${styles.MuiTypography_body1}`}
+                      >
+                        Get coaching and content to achieve your goals.
+                      </p>
+                    </td>
+                    <td
+                      className={`${styles.MuiTableCell_root} ${styles.MuiTableCell_body} ${styles.MuiTableCell_alignCenter}`}
+                    ></td>
+                    <td
+                      className={`${styles.MuiTableCell_root} ${styles.MuiTableCell_body} ${styles.MuiTableCell_alignCenter}`}
+                    >
+                      <div>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="22"
+                          height="22"
+                          viewBox="0 0 22 22"
+                        >
+                          <path
+                            fill="#0066EE"
+                            d="M11 0c6.075 0 11 4.925 11 11s-4.925 11-11 11S0 17.075 0 11 4.925 0 11 0zm5.535 6L9.24 13.1l-2.796-2.67L5 11.9 9.197 16h.018L18 7.44 16.535 6z"
+                          ></path>
+                        </svg>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr className={`${styles.MuiTableRow_root} ${styles.jss103}`}>
+                    <td
+                      className={`${styles.MuiTableCell_root} ${styles.MuiTableCell_body} ${styles.MuiTableCell_alignLeft}`}
+                    >
+                      <h3
+                        className={`${styles.MuiTypography_root} ${styles.jss104} ${styles.MuiTypography_h4}`}
+                      >
+                        <strong>Custom Home Screen Dashboard</strong>
+                      </h3>
+                      <p
+                        className={`${styles.MuiTypography_root} ${styles.jss105} ${styles.MuiTypography_body1}`}
+                      >
+                        Reach goals faster by seeing what’s important to you.
+                      </p>
+                    </td>
+                    <td
+                      className={`${styles.MuiTableCell_root} ${styles.MuiTableCell_body} ${styles.MuiTableCell_alignCenter}`}
+                    ></td>
+                    <td
+                      className={`${styles.MuiTableCell_root} ${styles.MuiTableCell_body} ${styles.MuiTableCell_alignCenter}`}
+                    >
+                      <div>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="22"
+                          height="22"
+                          viewBox="0 0 22 22"
+                        >
+                          <path
+                            fill="#0066EE"
+                            d="M11 0c6.075 0 11 4.925 11 11s-4.925 11-11 11S0 17.075 0 11 4.925 0 11 0zm5.535 6L9.24 13.1l-2.796-2.67L5 11.9 9.197 16h.018L18 7.44 16.535 6z"
+                          ></path>
+                        </svg>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr className={`${styles.MuiTableRow_root} ${styles.jss103}`}>
+                    <td
+                      className={`${styles.MuiTableCell_root} ${styles.MuiTableCell_body} ${styles.MuiTableCell_alignLeft}`}
+                    >
+                      <h3
+                        className={`${styles.MuiTypography_root} ${styles.jss104} ${styles.MuiTypography_h4}`}
+                      >
+                        <strong>Food Analysis &amp; Insights</strong>
+                      </h3>
+                      <p
+                        className={`${styles.MuiTypography_root} ${styles.jss105} ${styles.MuiTypography_body1}`}
+                      >
+                        Follow your progress through your data.
+                      </p>
+                    </td>
+                    <td
+                      className={`${styles.MuiTableCell_root} ${styles.MuiTableCell_body} ${styles.MuiTableCell_alignCenter}`}
+                    ></td>
+                    <td
+                      className={`${styles.MuiTableCell_root} ${styles.MuiTableCell_body} ${styles.MuiTableCell_alignCenter}`}
+                    >
+                      <div>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="22"
+                          height="22"
+                          viewBox="0 0 22 22"
+                        >
+                          <path
+                            fill="#0066EE"
+                            d="M11 0c6.075 0 11 4.925 11 11s-4.925 11-11 11S0 17.075 0 11 4.925 0 11 0zm5.535 6L9.24 13.1l-2.796-2.67L5 11.9 9.197 16h.018L18 7.44 16.535 6z"
+                          ></path>
+                        </svg>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr className={`${styles.MuiTableRow_root} ${styles.jss103}`}>
+                    <td
+                      className={`${styles.MuiTableCell_root} ${styles.MuiTableCell_body} ${styles.MuiTableCell_alignLeft}`}
+                    >
+                      <h3
+                        className={`${styles.MuiTypography_root} ${styles.jss104} ${styles.MuiTypography_h4}`}
+                      >
+                        <strong>Meals &amp; Recipes</strong>
+                      </h3>
+                      <p
+                        className={`${styles.MuiTypography_root} ${styles.jss105} ${styles.MuiTypography_body1}`}
+                      >
+                        Learn how to eat with your goals in mind.
+                      </p>
+                    </td>
+                    <td
+                      className={`${styles.MuiTableCell_root} ${styles.MuiTableCell_body} ${styles.MuiTableCell_alignCenter}`}
+                    ></td>
+                    <td
+                      className={`${styles.MuiTableCell_root} ${styles.MuiTableCell_body} ${styles.MuiTableCell_alignCenter}`}
+                    >
+                      <div>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="22"
+                          height="22"
+                          viewBox="0 0 22 22"
+                        >
+                          <path
+                            fill="#0066EE"
+                            d="M11 0c6.075 0 11 4.925 11 11s-4.925 11-11 11S0 17.075 0 11 4.925 0 11 0zm5.535 6L9.24 13.1l-2.796-2.67L5 11.9 9.197 16h.018L18 7.44 16.535 6z"
+                          ></path>
+                        </svg>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr className={`${styles.MuiTableRow_root} ${styles.jss103}`}>
+                    <td
+                      className={`${styles.MuiTableCell_root} ${styles.MuiTableCell_body} ${styles.MuiTableCell_alignLeft}`}
+                    >
+                      <h3
+                        className={`${styles.MuiTypography_root} ${styles.jss104} ${styles.MuiTypography_h4}`}
+                      >
+                        <strong>Ad-Free Experience</strong>
+                      </h3>
+                      <p
+                        className={`${styles.MuiTypography_root} ${styles.jss105} ${styles.MuiTypography_body1}`}
+                      >
+                        Focus on your fitness and nutrition without ads.
+                      </p>
+                    </td>
+                    <td
+                      className={`${styles.MuiTableCell_root} ${styles.MuiTableCell_body} ${styles.MuiTableCell_alignCenter}`}
+                    ></td>
+                    <td
+                      className={`${styles.MuiTableCell_root} ${styles.MuiTableCell_body} ${styles.MuiTableCell_alignCenter}`}
+                    >
+                      <div>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="22"
+                          height="22"
+                          viewBox="0 0 22 22"
+                        >
+                          <path
+                            fill="#0066EE"
+                            d="M11 0c6.075 0 11 4.925 11 11s-4.925 11-11 11S0 17.075 0 11 4.925 0 11 0zm5.535 6L9.24 13.1l-2.796-2.67L5 11.9 9.197 16h.018L18 7.44 16.535 6z"
+                          ></path>
+                        </svg>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr className={`${styles.MuiTableRow_root} ${styles.jss103}`}>
+                    <td
+                      className={`${styles.MuiTableCell_root} ${styles.MuiTableCell_body} ${styles.MuiTableCell_alignLeft}`}
+                    >
+                      <h3
+                        className={`${styles.MuiTypography_root} ${styles.jss104} ${styles.MuiTypography_h4}`}
+                      >
+                        <strong>Subtract Exercise Calories</strong>
+                      </h3>
+                      <p
+                        className={`${styles.MuiTypography_root} ${styles.jss105} ${styles.MuiTypography_body1}`}
+                      >
+                        Adjust your day’s calorie goal automatically.
+                      </p>
+                    </td>
+                    <td
+                      className={`${styles.MuiTableCell_root} ${styles.MuiTableCell_body} ${styles.MuiTableCell_alignCenter}`}
+                    ></td>
+                    <td
+                      className={`${styles.MuiTableCell_root} ${styles.MuiTableCell_body} ${styles.MuiTableCell_alignCenter}`}
+                    >
+                      <div>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="22"
+                          height="22"
+                          viewBox="0 0 22 22"
+                        >
+                          <path
+                            fill="#0066EE"
+                            d="M11 0c6.075 0 11 4.925 11 11s-4.925 11-11 11S0 17.075 0 11 4.925 0 11 0zm5.535 6L9.24 13.1l-2.796-2.67L5 11.9 9.197 16h.018L18 7.44 16.535 6z"
+                          ></path>
+                        </svg>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr className={`${styles.MuiTableRow_root} ${styles.jss103}`}>
+                    <td
+                      className={`${styles.MuiTableCell_root} ${styles.MuiTableCell_body} ${styles.MuiTableCell_alignLeft}`}
+                    >
+                      <h3
+                        className={`${styles.MuiTypography_root} ${styles.jss104} ${styles.MuiTypography_h4}`}
+                      >
+                        <strong>Quick-Add Carbs, Fat &amp; Protein</strong>
+                      </h3>
+                      <p
+                        className={`${styles.MuiTypography_root} ${styles.jss105} ${styles.MuiTypography_body1}`}
+                      >
+                        Log your meals quickly and easily.
+                      </p>
+                    </td>
+                    <td
+                      className={`${styles.MuiTableCell_root} ${styles.MuiTableCell_body} ${styles.MuiTableCell_alignCenter}`}
+                    ></td>
+                    <td
+                      className={`${styles.MuiTableCell_root} ${styles.MuiTableCell_body} ${styles.MuiTableCell_alignCenter}`}
+                    >
+                      <div>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="22"
+                          height="22"
+                          viewBox="0 0 22 22"
+                        >
+                          <path
+                            fill="#0066EE"
+                            d="M11 0c6.075 0 11 4.925 11 11s-4.925 11-11 11S0 17.075 0 11 4.925 0 11 0zm5.535 6L9.24 13.1l-2.796-2.67L5 11.9 9.197 16h.018L18 7.44 16.535 6z"
+                          ></path>
+                        </svg>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr className={`${styles.MuiTableRow_root} ${styles.jss103}`}>
+                    <td
+                      className={`${styles.MuiTableCell_root} ${styles.MuiTableCell_body} ${styles.MuiTableCell_alignLeft}`}
+                    >
+                      <h3
+                        className={`${styles.MuiTypography_root} ${styles.jss104} ${styles.MuiTypography_h4}`}
+                      >
+                        <strong>File Export</strong>
+                      </h3>
+                      <p
+                        className={`${styles.MuiTypography_root} ${styles.jss105} ${styles.MuiTypography_body1}`}
+                      >
+                        Download CSV files of all your progress.
+                      </p>
+                    </td>
+                    <td
+                      className={`${styles.MuiTableCell_root} ${styles.MuiTableCell_body} ${styles.MuiTableCell_alignCenter}`}
+                    ></td>
+                    <td
+                      className={`${styles.MuiTableCell_root} ${styles.MuiTableCell_body} ${styles.MuiTableCell_alignCenter}`}
+                    >
+                      <div>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="22"
+                          height="22"
+                          viewBox="0 0 22 22"
+                        >
+                          <path
+                            fill="#0066EE"
+                            d="M11 0c6.075 0 11 4.925 11 11s-4.925 11-11 11S0 17.075 0 11 4.925 0 11 0zm5.535 6L9.24 13.1l-2.796-2.67L5 11.9 9.197 16h.018L18 7.44 16.535 6z"
+                          ></path>
+                        </svg>
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
       </main>
     </>
   );
