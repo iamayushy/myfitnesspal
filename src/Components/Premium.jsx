@@ -563,6 +563,261 @@ const Premium = () => {
             </div>
           </div>
         </div>
+        <div
+          className={`${styles.MuiContainer_root} ${styles.MuiContainer_maxWidthLg}`}
+        >
+          <div className={styles.jss117}>
+            <header className={styles.jss114}>
+              <div className={styles.jss65}>Premium</div>
+              <h2
+                className={`${styles.MuiTypography_root} ${styles.jss126} ${styles.jss116}`}
+              >
+                Frequently Asked Questions
+              </h2>
+            </header>
+            <div
+              className={`${styles.MuiPaper_root} ${styles.MuiExpansionPanel_root} ${styles.MuiExpansionPanel_rounded} ${styles.MuiPaper_elevation1} ${styles.MuiPaper_rounded}`}
+            >
+              <div
+                onClick={handleShow1}
+                className={`${styles.MuiButtonBase_root} ${styles.MuiExpansionPanelSummary_root}`}
+                tabindex="0"
+                role="button"
+                aria-disabled="false"
+                aria-expanded="false"
+                aria-controls="faq-1-content"
+                id="faq-1-header"
+              >
+                <div className={styles.MuiExpansionPanelSummary_content}>
+                  <h3
+                    className={`${styles.MuiTypography_root} ${styles.MuiTypography_h4}`}
+                  >
+                    When will I get charged?
+                  </h3>
+                </div>
+                <div
+                  className={`${styles.MuiButtonBase_root} ${styles.MuiIconButton_root} ${styles.MuiExpansionPanelSummary_expandIcon} ${styles.MuiIconButton_edgeEnd}`}
+                  aria-disabled="false"
+                  aria-hidden="true"
+                >
+                  <span className={styles.MuiIconButton_label}>
+                    <AiOutlineDown className={styles.MuiSvgIcon_root} />
+                  </span>
+                </div>
+              </div>
+              <div
+                className={`${show1 ? styles.showtext : styles.hidetext} ${
+                  styles.p1
+                } ${styles.MuiCollapse_container} ${styles.MuiCollapse_hidden}`}
+                //   style="min-height: 0px;"
+              >
+                <div className={styles.MuiCollapse_wrapper}>
+                  <div className={styles.MuiCollapse_wrapperInner}>
+                    <div
+                      aria-labelledby="faq-1-header"
+                      id="faq-1-content"
+                      role="region"
+                    >
+                      <div className={styles.MuiExpansionPanelDetails_root}>
+                        <p
+                          className={`${styles.MuiTypography_root} ${styles.MuiTypography_body2} ${styles.MuiTypography_colorTextSecondary}`}
+                        >
+                          If you’ve never upgraded to Premium or never started a
+                          Premium trial before, you are eligible for a 1-month
+                          trial, and the first Premium subscription charge on
+                          your credit card will be after the trial. Once the
+                          trial ends, your subscription will auto-renew unless
+                          you cancel. If you purchased a monthly subscription,
+                          you will get charged every month. If you purchased an
+                          annual subscription, you will be charged every year.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className={`${styles.MuiPaper_root} ${styles.MuiExpansionPanel_root} ${styles.MuiExpansionPanel_rounded} ${styles.MuiPaper_elevation1} ${styles.MuiPaper_rounded}`}
+            >
+              <div
+                onClick={handleShow2}
+                className={`${styles.MuiButtonBase_root} ${styles.MuiExpansionPanelSummary_root}`}
+                tabindex="0"
+                role="button"
+                aria-disabled="false"
+                aria-expanded="false"
+                aria-controls="faq-2-content"
+                id="faq-2-header"
+              >
+                <div className={styles.MuiExpansionPanelSummary_content}>
+                  <h3
+                    className={`${styles.MuiTypography_root} ${styles.MuiTypography_h4}`}
+                  >
+                    Will my subscription automatically renew?
+                  </h3>
+                </div>
+                <div
+                  className={`${styles.MuiButtonBase_root} ${styles.MuiIconButton_root} ${styles.MuiExpansionPanelSummary_expandIcon} ${styles.MuiIconButton_edgeEnd}`}
+                  aria-disabled="false"
+                  aria-hidden="true"
+                >
+                  <span className={styles.MuiIconButton_label}>
+                    <AiOutlineDown className={styles.MuiSvgIcon_root} />
+                  </span>
+                </div>
+              </div>
+              <div
+                className={`${show2 ? styles.showtext : styles.hidetext} ${
+                  styles.MuiCollapse_container
+                } ${styles.MuiCollapse_hidden}`}
+              >
+                <div className={styles.MuiCollapse_wrapper}>
+                  <div className={styles.MuiCollapse_wrapperInner}>
+                    <div
+                      aria-labelledby="faq-2-header"
+                      id="faq-2-content"
+                      role="region"
+                    >
+                      <div className={styles.MuiExpansionPanelDetails_root}>
+                        <p
+                          className={`${styles.MuiTypography_root} ${styles.MuiTypography_body2} ${styles.MuiTypography_colorTextSecondary}`}
+                        >
+                          MyFitnessPal Premium features are available on a
+                          monthly or yearly subscription basis, depending on
+                          which one you purchase. By default, your subscription
+                          will renew automatically when your membership period
+                          is up—unless you manually cancel your subscription.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className={`${styles.MuiPaper_root} ${styles.MuiExpansionPanel_root} ${styles.MuiExpansionPanel_rounded} ${styles.MuiPaper_elevation1} ${styles.MuiPaper_rounded}`}
+            >
+              <div
+                onClick={handleShow3}
+                className={`${styles.MuiButtonBase_root} ${styles.MuiExpansionPanelSummary_root}`}
+                tabindex="0"
+                role="button"
+                aria-disabled="false"
+                aria-expanded="false"
+                aria-controls="faq-3-content"
+                id="faq-3-header"
+              >
+                <div className={styles.MuiExpansionPanelSummary_content}>
+                  <h3
+                    className={`${styles.MuiTypography_root} ${styles.MuiTypography_h4}`}
+                  >
+                    Can I cancel anytime?
+                  </h3>
+                </div>
+                <div
+                  className={`${styles.MuiButtonBase_root} ${styles.MuiIconButton_root} ${styles.MuiExpansionPanelSummary_expandIcon} ${styles.MuiIconButton_edgeEnd}`}
+                  aria-disabled="false"
+                  aria-hidden="true"
+                >
+                  <span className={styles.MuiIconButton_label}>
+                    <AiOutlineDown className={styles.MuiSvgIcon_root} />
+                  </span>
+                </div>
+              </div>
+              <div
+                className={`${show3 ? styles.showtext : styles.hidetext} ${
+                  styles.MuiCollapse_container
+                } ${styles.MuiCollapse_hidden}`}
+              >
+                <div className={styles.MuiCollapse_wrapper}>
+                  <div className={styles.MuiCollapse_wrapperInner}>
+                    <div
+                      aria-labelledby="faq-3-header"
+                      id="faq-3-content"
+                      role="region"
+                    >
+                      <div className={styles.MuiExpansionPanelDetails_root}>
+                        <p
+                          className={`${styles.MuiTypography_root} ${styles.MuiTypography_body2} ${styles.MuiTypography_colorTextSecondary}`}
+                        >
+                          Yes, you may cancel your recurring subscription at any
+                          time. Cancel at least 24 hours before the next renewal
+                          date to avoid being charged for the upcoming billing
+                          cycle. When you cancel, you are canceling the next
+                          billing charge—Premium features will remain available
+                          to you until the end of your current paid subscription
+                          period, regardless of when you cancel the automatic
+                          renewal.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className={`${styles.MuiPaper_root} ${styles.MuiExpansionPanel_root} ${styles.MuiExpansionPanel_rounded} ${styles.MuiPaper_elevation1} ${styles.MuiPaper_rounded}`}
+            >
+              <div
+                onClick={handleShow4}
+                className={`${styles.MuiButtonBase_root} ${styles.MuiExpansionPanelSummary_root}`}
+                tabindex="0"
+                role="button"
+                aria-disabled="false"
+                aria-expanded="false"
+                aria-controls="faq-4-content"
+                id="faq-4-header"
+              >
+                <div className={styles.MuiExpansionPanelSummary_content}>
+                  <h3
+                    className={`${styles.MuiTypography_root} ${styles.MuiTypography_h4}`}
+                  >
+                    What do I need to upgrade?
+                  </h3>
+                </div>
+                <div
+                  className={`${styles.MuiButtonBase_root} ${styles.MuiIconButton_root} ${styles.MuiExpansionPanelSummary_expandIcon} ${styles.MuiIconButton_edgeEnd}`}
+                  aria-disabled="false"
+                  aria-hidden="true"
+                >
+                  <span className={styles.MuiIconButton_label}>
+                    <AiOutlineDown className={styles.MuiSvgIcon_root} />
+                  </span>
+                </div>
+              </div>
+              <div
+                className={`${show4 ? styles.showtext : styles.hidetext} ${
+                  styles.MuiCollapse_container
+                } ${styles.MuiCollapse_hidden}`}
+              >
+                <div className={styles.MuiCollapse_wrapper}>
+                  <div className={styles.MuiCollapse_wrapperInner}>
+                    <div
+                      aria-labelledby="faq-4-header"
+                      id="faq-4-content"
+                      role="region"
+                    >
+                      <div className={styles.MuiExpansionPanelDetails_root}>
+                        <p
+                          className={`${styles.MuiTypography_root} ${styles.MuiTypography_body2} ${styles.MuiTypography_colorTextSecondary}`}
+                        >
+                          Just tap one of the buttons below to start a monthly
+                          or annual subscription. A Premium subscription adds
+                          more extensive options to MyFitnessPal's feature set,
+                          increasing customizability and flexibility. Your
+                          MyFitnessPal account will stay just as you've built
+                          it—friends, favorite foods, diary history—with many
+                          new and enhanced features added once you go Premium.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </main>
     </>
   );
