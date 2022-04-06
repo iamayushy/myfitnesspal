@@ -836,6 +836,130 @@ const Premium = () => {
             </div>
           </div>
         </div>
+        <div>
+          <div
+            className={`${styles.MuiContainer_root} ${styles.jss134} ${styles.MuiContainer_maxWidthLg}`}
+          >
+            <div className={styles.jss135}>
+              <div className={`${styles.jss65} ${styles.jss66}`}>
+                1-month free
+              </div>
+            </div>
+            <div className={styles.jss136}>
+              <h2
+                className={`${styles.MuiTypography_root} ${styles.jss75} ${styles.jss137}`}
+              >
+                Go Premium, Get Results
+              </h2>
+            </div>
+            <div className={styles.jss138}>
+              <p
+                className={`${styles.MuiTypography_root} ${styles.jss139} ${styles.MuiTypography_body1}`}
+              >
+                Choose a MyFitnessPal Premium plan to start your 1-month free
+                trial. You will be charged after the trial has ended—cancel
+                anytime.
+              </p>
+            </div>
+            <div className={styles.jss140}>
+              <div>
+                <div className={styles.jss141}>
+                  <div className={styles.jss260}>
+                    <div className={styles.jss262}>
+                      <span className={styles.jss261}>
+                        <h4
+                          className={`${styles.MuiTypography_root} ${styles.jss261} ${styles.MuiTypography_h4}`}
+                        >
+                          Save 67%
+                        </h4>
+                      </span>
+                    </div>
+                    <div className={styles.jss142}>
+                      <div className={styles.jss143}>
+                        <h3
+                          className={`${styles.MuiTypography_root} ${styles.jss146} ${styles.MuiTypography_h3}`}
+                        >
+                          Annual
+                        </h3>
+                      </div>
+                      <div className={styles.jss144}>
+                        <h3
+                          className={`${styles.MuiTypography_root} ${styles.jss74} ${styles.jss145}`}
+                        >
+                          $79.99
+                          <h4
+                            className={`${styles.MuiTypography_root} ${styles.MuiTypography_h4} ${styles.MuiTypography_displayInline}`}
+                          >
+                            Per Year
+                          </h4>
+                        </h3>
+                      </div>
+                      <div className={styles.jss147}>
+                        <h4
+                          className={`${styles.MuiTypography_root} ${styles.jss148} ${styles.MuiTypography_h4}`}
+                        >
+                          $79.99 billed yearly after free trial ends.
+                        </h4>
+                      </div>
+                      <div className={styles.jss149}>
+                        <button
+                          className={`${styles.MuiButtonBase_root} ${styles.MuiButton_root} ${styles.MuiButton_contained} ${styles.jss83} ${styles.jss84} ${styles.jss85} ${styles.jss150} ${styles.MuiButton_containedPrimary}`}
+                          tabindex="0"
+                          type="button"
+                        >
+                          <span className={styles.MuiButton_label}>
+                            Subscribe
+                          </span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div className={styles.jss263}>
+                    <div className={styles.jss142}>
+                      <div className={styles.jss143}>
+                        <h3
+                          className={`${styles.MuiTypography_root} ${styles.jss146} ${styles.MuiTypography_h3}`}
+                        >
+                          Monthly
+                        </h3>
+                      </div>
+                      <div className={styles.jss144}>
+                        <h3
+                          className={`${styles.MuiTypography_root} ${styles.jss74} ${styles.jss145}`}
+                        >
+                          $19.99
+                          <div
+                            className={`${styles.MuiTypography_root} ${styles.MuiTypography_h5} ${styles.MuiTypography_displayInline}`}
+                          >
+                            Per Month
+                          </div>
+                        </h3>
+                      </div>
+                      <div className={styles.jss147}>
+                        <h4
+                          className={`${styles.MuiTypography_root} ${styles.jss148} ${styles.MuiTypography_h4}`}
+                        >
+                          $19.99 billed monthly after free trial ends.
+                        </h4>
+                      </div>
+                      <div className={styles.jss149}>
+                        <button
+                          className={`${styles.MuiButtonBase_root} ${styles.MuiButton_root} ${styles.MuiButton_outlined} ${styles.jss83} ${styles.jss84} ${styles.jss85} ${styles.jss150} ${styles.MuiButton_outlinedPrimary}`}
+                          tabindex="0"
+                          type="button"
+                        >
+                          <span className={styles.MuiButton_label}>
+                            Subscribe
+                          </span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </main>
     </>
   );
