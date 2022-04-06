@@ -1,7 +1,25 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from "./Premium.module.jsx";
+import { AiOutlineDown } from "react-icons/ai";
 
 const Premium = () => {
+  const [show1, setShow1] = useState(false);
+  const [show2, setShow2] = useState(false);
+  const [show3, setShow3] = useState(false);
+  const [show4, setShow4] = useState(false);
+
+  const handleShow1 = () => {
+    setShow1(!show1);
+  };
+  const handleShow2 = () => {
+    setShow2(!show2);
+  };
+  const handleShow3 = () => {
+    setShow3(!show3);
+  };
+  const handleShow4 = () => {
+    setShow4(!show4);
+  };
   return (
     <>
       <main className={styles.jss52}>
