@@ -8,6 +8,7 @@ export const Premium = () => {
 				src="https://raw.githubusercontent.com/AbhijitAher/MyFitnessPal_U5/main/myfitnesspal/public/Images/premium/Image1.JPG"
 				alt=""
 			/>
+		
 			<img
 				className="Img2"
 				src="https://raw.githubusercontent.com/AbhijitAher/MyFitnessPal_U5/main/myfitnesspal/public/Images/premium/Image2.jpg"
@@ -36,3 +37,4 @@ export const Premium = () => {
 		</div>
 	);
 };
+{/*Some bug are remaining*/}
